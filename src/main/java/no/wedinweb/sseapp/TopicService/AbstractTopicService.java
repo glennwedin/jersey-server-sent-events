@@ -1,7 +1,7 @@
-package no.wedinweb.testapp.TopicService;
+package no.wedinweb.sseapp.TopicService;
 
-import no.wedinweb.testapp.pubsub.PubSub;
-import no.wedinweb.testapp.pubsub.Topic;
+import no.wedinweb.sseapp.pubsub.PubSub;
+import no.wedinweb.sseapp.pubsub.Topic;
 
 public abstract class AbstractTopicService {
 

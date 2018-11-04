@@ -1,4 +1,4 @@
-package no.wedinweb.testapp;
+package no.wedinweb.sseapp;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerResponseContext;

@@ -1,7 +1,7 @@
-package no.wedinweb.testapp.Stuff;
+package no.wedinweb.sseapp.Stuff;
 
-import no.wedinweb.testapp.TopicService.AbstractTopicService;
-import no.wedinweb.testapp.pubsub.Topic;
+import no.wedinweb.sseapp.TopicService.AbstractTopicService;
+import no.wedinweb.sseapp.pubsub.Topic;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

@@ -1,4 +1,4 @@
-package no.wedinweb.testapp.pubsub;
+package no.wedinweb.sseapp.pubsub;
 
 public enum Topic {
     MUSIC,

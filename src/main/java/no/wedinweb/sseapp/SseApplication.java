@@ -1,24 +1,24 @@
-package no.wedinweb.testapp;
+package no.wedinweb.sseapp;
 
-import no.wedinweb.testapp.Event.EventResource;
-import no.wedinweb.testapp.Stuff.StuffResource;
-import no.wedinweb.testapp.TopicService.AbstractTopicService;
-import no.wedinweb.testapp.TopicService.MusicService;
-import no.wedinweb.testapp.TopicService.SportService;
-import no.wedinweb.testapp.pubsub.PubSub;
+import no.wedinweb.sseapp.Event.EventResource;
+import no.wedinweb.sseapp.Stuff.StuffResource;
+import no.wedinweb.sseapp.TopicService.AbstractTopicService;
+import no.wedinweb.sseapp.TopicService.MusicService;
+import no.wedinweb.sseapp.TopicService.SportService;
+import no.wedinweb.sseapp.pubsub.PubSub;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestappApplication extends ResourceConfig {
+public class SseApplication extends ResourceConfig {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestappApplication.class, args);
+		SpringApplication.run(SseApplication.class, args);
 	}
 
-	public TestappApplication() {
+	public SseApplication() {
 		register(StuffResource.class);
 		register(EventResource.class);
 		register(CorsFilter.class);

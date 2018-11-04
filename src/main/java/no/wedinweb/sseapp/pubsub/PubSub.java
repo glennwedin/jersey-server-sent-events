@@ -1,4 +1,4 @@
-package no.wedinweb.testapp.pubsub;
+package no.wedinweb.sseapp.pubsub;
 
 import java.util.ArrayList;
 import java.util.HashMap;

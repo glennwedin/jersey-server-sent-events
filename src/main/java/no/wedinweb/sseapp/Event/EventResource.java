@@ -1,10 +1,10 @@
-package no.wedinweb.testapp.Event;
+package no.wedinweb.sseapp.Event;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
 
-import no.wedinweb.testapp.TopicService.MusicService;
-import no.wedinweb.testapp.TopicService.SportService;
+import no.wedinweb.sseapp.TopicService.MusicService;
+import no.wedinweb.sseapp.TopicService.SportService;
 import org.glassfish.jersey.media.sse.EventOutput;
 import org.glassfish.jersey.media.sse.OutboundEvent;
 import org.glassfish.jersey.media.sse.SseFeature;

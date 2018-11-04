@@ -1,7 +1,7 @@
-package no.wedinweb.testapp.testapp;
+package no.wedinweb.sseapp;
 
-import no.wedinweb.testapp.pubsub.PubSub;
-import no.wedinweb.testapp.pubsub.Topic;
+import no.wedinweb.sseapp.pubsub.PubSub;
+import no.wedinweb.sseapp.pubsub.Topic;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TestappApplicationTests {
+public class SseApplicationTests {
 
 	@Test
 	public void contextLoads() {

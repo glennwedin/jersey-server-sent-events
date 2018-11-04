@@ -1,8 +1,8 @@
-package no.wedinweb.testapp.testapp;
+package no.wedinweb.sseapp;
 
-import no.wedinweb.testapp.pubsub.PubSubSubscriber;
-import no.wedinweb.testapp.pubsub.PubSub;
-import no.wedinweb.testapp.pubsub.Topic;
+import no.wedinweb.sseapp.pubsub.PubSubSubscriber;
+import no.wedinweb.sseapp.pubsub.PubSub;
+import no.wedinweb.sseapp.pubsub.Topic;
 
 class PubSubSubscriberSubscriber implements PubSubSubscriber {
 
